@@ -1,0 +1,83 @@
+PUT shunfeng/
+{
+  "mappings": {
+      "properties": {
+        "name": {
+          "type":"keyword"
+        },
+        "phone": {
+          "type":"text"
+        },
+        "province": {
+          "type":"keyword"
+        },
+        "city": {
+          "type":"keyword"
+        },
+        "dist": {
+          "type":"keyword"
+        },
+        "addr": {
+          "type":"text"
+        }
+      }
+  }
+}
+
+PUT jd/
+{
+  "mappings": {
+      "properties": {
+        "name": {
+          "type":"text"
+        },
+        "nickname": {
+          "type":"text"
+        },
+        "password_hash": {
+          "type": "keyword"
+        },
+        "mail": {
+          "type": "text"
+        },
+        "id": {
+          "type": "keyword"
+        },
+        "phone1": {
+          "type":"text"
+        },
+        "phone2": {
+          "type":"text"
+        }
+      }
+  }
+}
+
+PUT /weibo
+{
+  "mappings": {
+      "properties": {
+        "uid": {
+          "type":"keyword"
+        },
+        "phone": {
+          "type":"text"
+        }
+      }
+  }
+}
+
+PUT qq/
+{
+  "mappings": {
+      "properties": {
+        "qq_number": {
+          "type":"keyword"
+        },
+        "phone": {
+          "type":"text"
+        }
+      }
+  }
+}
+
